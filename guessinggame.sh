@@ -8,7 +8,7 @@ then
 echo "Your guess is absolutely correct...CONGRATULATIONS!!"
 fi
 
-while[ $guess -ne $(ls|wc -l) ]
+while [ $guess -ne $(ls|wc -l) ]
 do
 if [ $guess -gt $(ls|wc -l) ]
 then
